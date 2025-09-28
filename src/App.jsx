@@ -2,6 +2,7 @@ import { useState } from "react";
 import BgColorChanger from "./components/BgColorChanger";
 import PasswordGenerator from "./components/PasswordGenerator";
 import CurrencyConverterHome from "./components/currency-converter/CurrencyConverterHome";
+import AdditionApp from "./components/AdditionApp";
 
 function App() {
   const [color, setColor] = useState("red");
@@ -9,6 +10,7 @@ function App() {
   return (
     // backgroound color changes code 
     <div>
+      {/* <AdditionApp/> */}
       {/* <BgColorChanger /> */}
 
     {/* <PasswordGenerator /> */}
